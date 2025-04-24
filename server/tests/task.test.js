@@ -1,7 +1,7 @@
 const request = require("supertest");
 const {app, server, pool} = require("../index.js");
 
-//testing purposes only
+//Clean up after tests, close server and database connection
 afterAll(async () => {
     await pool.end();
     server.close();
