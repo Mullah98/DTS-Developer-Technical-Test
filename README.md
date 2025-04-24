@@ -7,8 +7,8 @@ To build a simple API and a frontend for managing tasks using best coding practi
 ## 1.Fork & Clone the repository
 - Click the **fork** button on the GitHub repo
 - Clone the forked repo:
-- `git clone __repo-link____`
-- `cd repo__name`
+- `git clone https://github.com/Mullah98/DTS-Developer-Technical-Test.git`
+- `cd HMCTS-Case-Management-Coding-Challlenge`
 
 ## 2. Set up the backend server
 - `cd server`
