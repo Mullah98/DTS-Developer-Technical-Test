@@ -104,14 +104,8 @@ app.delete("/tasks/:id", async(req, res) => {
     }
 })
 
-//Keep the below code for submission
-// app.listen(5000, () => {
-//     console.log("server has started on port 5000")
-// })
 
-
-
-//Testing purposes
+//For local testing and development
 const server = app.listen(5000, () => {
     console.log('server has started on port 5000');
 });
